@@ -17,30 +17,55 @@
 </head>
 <body>
   <!-- Button fixed: Toggle menu, scroll to top -->
-  <div class="toggle-menu my-btn my-btn-fixed">
-    <a href="javascript:void(0);"><i class="fa fa-bars"></i></a>
+  <div class="toggle-menu my-btn my-btn-fixed" id="my-toggle-menu">
+    <i class="fa fa-bars"></i>
   </div>
-  <div class="scroll-to-top my-btn my-btn-fixed">
-    <a href="javascript:void(0)"><i class="fa fa-arrow-up"></i></a>
+  <div class="scroll-to-top my-btn my-btn-fixed" id="my-scroll-top">
+    <i class="fa fa-arrow-up"></i>
   </div>
 
-  <!-- Intro -->
-  <header>
-    <div class="gr-container-full gr-row" id="intro">
-      <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
-        <h1 class="site-title">I'm Lam Pham.</h1>
-        <p class="site-description">Software Engineer, Web Developer, JavaScript Lover &amp; Blogger @completejavascript</p>
-        <div class="group-btn">
-          <a href="#about" class="my-btn">About</a>
-          <a href="#contact" class="my-btn">Contact</a>
+  <!-- Side bar -->
+  <div class="side-bar" id="my-side-bar">
+    <div class="side-top">
+      <img class="img-profile gr-img-responsive" alt="Lam Pham's profile image" src="./res/lampv-profile-completejavascript.com-640.jpg">
+      <p class="name-profile">Lam Pham</p>
+      <p class="desc-profile">Software Engineer &amp; Web Developer</p>
+      <ul class="nav-profile">
+        <li>Intro</li>
+        <li>Portfolio</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="side-bottom">
+      <a href="https://codepen.io/completejavascript/"><i class="fa fa-codepen primary-color"></i></a>
+      <a href="https://www.freecodecamp.org/completejavascript"><i class="fa fa-free-code-camp primary-color"></i></a>
+      <a href="https://github.com/completejavascript"><i class="fa fa-github primary-color"></i></a>
+      <a href="https://www.facebook.com/completejavascript/"><i class="fa fa-facebook primary-color"></i></a>
+      <a href="https://www.linkedin.com/in/completejavascript/"><i class="fa fa-linkedin primary-color"></i></a>
+      <a href="https://twitter.com/CmpltJavaScript"><i class="fa fa-twitter primary-color"></i></a>
+      <a href="https://plus.google.com/u/1/102905788712213091494"><i class="fa fa-google-plus primary-color"></i></a>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <!-- Intro -->
+    <header>
+      <div class="gr-container-full gr-row" id="intro">
+        <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
+          <h1 class="site-title">I'm Lam Pham.</h1>
+          <p class="site-description">Software Engineer, Web Developer, JavaScript Lover &amp; Blogger @completejavascript</p>
+          <div class="group-btn">
+            <a href="#about" class="my-btn">About</a>
+            <a href="#contact" class="my-btn">Contact</a>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
-  </header>
-
-  <!-- Portfolio -->
-  <section>
+      <hr>
+    </header>
+  
+    <!-- Portfolio -->
+    <section>
       <div class="gr-container-full gr-row" id="portfolio">
         <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
           <h2 class="section-title">Portfolio</h2>
@@ -156,55 +181,57 @@
         </div>
       </div>
       <hr>
-  </section>
-
-  <!-- About -->
-  <section>
-    <div class="gr-container-full gr-row" id="about">
-      <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
-        <h2 class="section-title">About</h2>
-        <p class="section-description">A little bit about me.</p>
-        <div class="about-content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis id magna vel cursus. Cras ipsum neque, varius vitae
-            arcu non, ullamcorper cursus est. Donec finibus risus felis, eget facilisis urna ultrices et. Aenean velit mauris,
-            pulvinar vel purus at, dapibus bibendum purus. Etiam finibus diam quis suscipit pellentesque.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis id magna vel cursus. Cras ipsum neque, varius vitae
-            arcu non, ullamcorper cursus est. Donec finibus risus felis, eget facilisis urna ultrices et. Aenean velit mauris,
-            pulvinar vel purus at, dapibus bibendum purus. Etiam finibus diam quis suscipit pellentesque.
-          </p>
+    </section>
+  
+    <!-- About -->
+    <section>
+      <div class="gr-container-full gr-row" id="about">
+        <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
+          <h2 class="section-title">About</h2>
+          <p class="section-description">A little bit about me.</p>
+          <div class="about-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis id magna vel cursus. Cras ipsum neque, varius vitae
+              arcu non, ullamcorper cursus est. Donec finibus risus felis, eget facilisis urna ultrices et. Aenean velit mauris,
+              pulvinar vel purus at, dapibus bibendum purus. Etiam finibus diam quis suscipit pellentesque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis id magna vel cursus. Cras ipsum neque, varius vitae
+              arcu non, ullamcorper cursus est. Donec finibus risus felis, eget facilisis urna ultrices et. Aenean velit mauris,
+              pulvinar vel purus at, dapibus bibendum purus. Etiam finibus diam quis suscipit pellentesque.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
-  </section>
-
-  <!-- Contact -->
-  <section>
-    <div class="gr-container-full gr-row" id="contact">
-      <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-description">If you'd like to get in touch with me, please send me a message. Thanks a lot!</p>
-        <div id="contact-me">
-          <form id="contact-form" method="POST" action="https://formspree.io/completejavascript.super@gmail.com">
-            <input type="text" id="yname" name="Name" placeholder="Name" required>
-            <input type="email" id="yemail" name="Email" placeholder="Email" required>
-            <textarea type="text" id="ymsg" name="Message" placeholder="Message" required></textarea>
-            <input type="submit" id="send" value="Send Message" class="my-btn"></input>
-          </form>
+      <hr>
+    </section>
+  
+    <!-- Contact -->
+    <section>
+      <div class="gr-container-full gr-row" id="contact">
+        <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-description">If you'd like to get in touch with me, please send me a message. Thanks a lot!</p>
+          <div id="contact-me">
+            <form id="contact-form" method="POST" action="https://formspree.io/completejavascript.super@gmail.com">
+              <input type="text" id="yname" name="Name" placeholder="Name" required>
+              <input type="email" id="yemail" name="Email" placeholder="Email" required>
+              <textarea type="text" id="ymsg" name="Message" placeholder="Message" required></textarea>
+              <input type="submit" id="send" value="Send Message" class="my-btn"></input>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="gr-container-full">
-    <p>
-      Copyright &copy; 2018 by <a href="https://completejavascript.com/gioi-thieu/">Lam Pham</a>. All Rights Reserved.
-    </p>
-  </footer>
+    </section>
+  
+    <!-- Footer -->
+    <footer class="gr-container-full">
+      <p>
+        Copyright &copy; 2018 by
+        <a href="https://completejavascript.com/gioi-thieu/">Lam Pham</a>. All Rights Reserved.
+      </p>
+    </footer>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./js/main.js"></script>

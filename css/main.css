@@ -4,6 +4,7 @@
 body {margin: 0;}
 h1 {font-size: 48px;}
 header, section {text-align: center;}
+.main-container {width: 100%;}
 .my-box-shadow{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -19,10 +20,14 @@ header, section {text-align: center;}
 .my-btn-fixed {
   position: fixed;
   z-index: 1001;
+  cursor: pointer;
 }
 .toggle-menu {
   left: 10px;
   top: 10px;
+}
+.toggle-menu.responsive{
+  left: 260px;
 }
 .scroll-to-top {
   right: 10px;
@@ -55,14 +60,17 @@ header, section {text-align: center;}
 }
 .flex-grid {
   padding: 15px;
-  display: block;
   width: 100%;
-  float: left;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  justify-content: space-around;
 }
 .cell {
-  flex: 1;
-  display: table;
-  margin: 18px 0;
+  margin-bottom: 15px;
+  border: 0 solid #f0f0f0;
+  border-radius: 4px;
 }
 .cell-footer{
   width: 100%;
@@ -123,4 +131,95 @@ footer {
   font-size: small;
   background-color: #ccc;
   padding: 3px;
+}
+/* Side bar */
+.side-bar {
+  background-color: #333;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  justify-content: space-between;
+}
+.side-bar.responsive{
+  left: 0px;
+}
+.side-top {flex-grow: 1;}
+.side-bottom{
+  flex-shrink: 0;
+  padding: 10px;
+}
+.side-bottom i {
+  color: #fff;
+  margin: 0.25rem;
+  transform: scale(1.1);
+}
+.img-profile {
+  width: 150px;
+  margin: 50px 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+} 
+.name-profile{
+  text-transform: uppercase;
+  font-size: large;
+}
+.desc-profile{
+  font-size: small;
+  color: #888;
+}
+.nav-profile {
+  list-style: none;
+  padding: 0;
+}
+.nav-profile li{
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .cell{
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1 1 calc(50% - 1.5rem);
+    width: 50%;
+    margin: 0.5rem;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .main-container {
+    width: calc(100% - 250px);
+    float: right;
+  }
+  .cell{
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1 1 calc(50% - 1.5rem);
+    width: 50%;
+    margin: 0.75rem;
+  }
+  .side-bar{
+    left: 0px;
+    z-index: 1002;
+  }
+  .toggle-menu.responsive{
+    left: 10px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .cell{
+    display: block;
+    -webkit-box-flex: 1;
+    flex: 1 1 calc(33.3333% - 1.5rem);
+    width: 33.3333%;
+    margin: 0.75rem;
+  }
 }
