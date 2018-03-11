@@ -56,12 +56,11 @@
           <h1 class="site-title">I'm Lam Pham.</h1>
           <p class="site-description">Software Engineer, Web Developer, JavaScript Lover &amp; Blogger @completejavascript</p>
           <div class="group-btn">
-            <a href="#about" class="my-btn">About</a>
-            <a href="#contact" class="my-btn">Contact</a>
+            <a href="#about" class="my-btn" id="btn-about">About</a>
+            <a href="#contact" class="my-btn" id="btn-contact">Contact</a>
           </div>
         </div>
       </div>
-      <hr>
     </header>
   
     <!-- Portfolio -->
@@ -180,7 +179,6 @@
           <span id="btn-see-more" class="my-btn">See more</span>
         </div>
       </div>
-      <hr>
     </section>
   
     <!-- About -->
@@ -203,7 +201,6 @@
           </div>
         </div>
       </div>
-      <hr>
     </section>
   
     <!-- Contact -->
@@ -212,8 +209,8 @@
         <div class="gr-col-xs-12 gr-col-sm-12 gr-col-md-12 gr-col-lg-12 gr-col-xl-12">
           <h2 class="section-title">Contact</h2>
           <p class="section-description">If you'd like to get in touch with me, please send me a message. Thanks a lot!</p>
-          <div id="contact-me">
-            <form id="contact-form" method="POST" action="https://formspree.io/completejavascript.super@gmail.com">
+          <div>
+            <form method="POST" action="https://formspree.io/completejavascript.super@gmail.com">
               <input type="text" id="yname" name="Name" placeholder="Name" required>
               <input type="email" id="yemail" name="Email" placeholder="Email" required>
               <textarea type="text" id="ymsg" name="Message" placeholder="Message" required></textarea>

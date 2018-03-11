@@ -1,8 +1,15 @@
-* {
-  font-family: Nunito Sans, Helvetica, Arial, sans-serif;
+body {
+  margin: 0;
+  color: #222;
+  font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
 }
-body {margin: 0;}
-h1 {font-size: 48px;}
+h1, h2, h3, h4, h5{
+  line-height: 1.2;
+  font-weight: 700;
+}
+h1 {font-size: 2.75rem;}
+h2 {font-size: 1.5rem;}
+h3 {font-size: 1.3rem; color: #414141;}
 header, section {text-align: center;}
 .main-container {width: 100%;}
 .my-box-shadow{
@@ -14,13 +21,17 @@ header, section {text-align: center;}
 .my-btn {
   padding: 10px;
   background-color: #888;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #fff;
 }
 .my-btn-fixed {
   position: fixed;
   z-index: 1001;
   cursor: pointer;
+  background-color: rgba(136, 136, 136, 0.5);
+}
+.my-btn-fixed {
+  line-height: 1;
 }
 .toggle-menu {
   left: 10px;
@@ -37,7 +48,22 @@ header, section {text-align: center;}
   color: #fff;
 }
 /* Intro */
-#intro {padding: 60px 3px;}
+.site-title{text-transform: uppercase;}
+.site-description{
+  font-size: 0.97rem;
+}
+#intro {
+  padding: 60px 3px;
+  background-color: #f6cd61;
+}
+#btn-about{
+  background-color: #3da4ab;
+  font-weight: 700;
+}
+#btn-contact{
+  background-color: #fc5d76;
+  font-weight: 700;
+}
 .group-btn { margin-top: 120px;}
 .group-btn a {
   margin: 4px;
@@ -50,13 +76,18 @@ header, section {text-align: center;}
 .section-title::after {
   content: "";
   display: block;
-  border: 3px solid #000;
+  border: 2px solid #222;
   width: 150px;
   margin: 7px auto;
 }
+.section-description{
+  font-size: 1.1rem;
+  color: #6d6e70;
+}
 /* Portfolio */
 #portfolio {
-  padding: 40px 0px;
+  padding: 35px 0px;
+  background-color: #e8edec;
 }
 .flex-grid {
   padding: 15px;
@@ -71,6 +102,11 @@ header, section {text-align: center;}
   margin-bottom: 15px;
   border: 0 solid #f0f0f0;
   border-radius: 4px;
+  background-color: #fff;
+}
+.cell-description{
+  font-size: 1.05rem;
+  color: #6d6e70;
 }
 .cell-footer{
   width: 100%;
@@ -82,19 +118,28 @@ header, section {text-align: center;}
   float: left;
   text-align: left;
   padding: 15px 10px;
-  width: 70%;
+  width: 80%;
   background-color: inherit;
 }
-.cell-footer .tags span {font-size: small;}
+.cell-footer .tags span {font-size: 0.85rem; color: #6d6e70;}
+.cell-footer .tags i {color: #6d6e70;}
 .cell-footer .how-to{
   float: left;
   text-align: right;
-  width: 30%;
-  padding: 15px 10px;
+  width: 20%;
+  padding: 15px 10px 15px 5px;
   background-color: inherit;
 }
-.cell-footer .how-to a {font-size: small;}
+.cell-footer .how-to a {font-size: 0.85rem;}
+#btn-see-more{
+  background-color: #3da4ab;
+  cursor: pointer;
+}
 /* About */
+#about {
+  padding: 35px 0px;
+  background-color: #f8f8f9;
+}
 .about-content {padding: 15px 0px;}
 .about-content p{
   text-align: justify;
@@ -102,7 +147,11 @@ header, section {text-align: center;}
 }
 /* Contact */
 #contact {
-  padding: 40px 0px;
+  padding: 30px 0px;
+  background-color: #f6cd61;
+}
+#contact .section-description {
+  color: #6f1c26;
 }
 form{border: none;}
 form input, textarea{
@@ -120,21 +169,23 @@ form textarea {
   height: 7em;
 }
 form input[type="submit"] {
-  font-size: medium;
-  text-transform: uppercase;
+  font-size: 1rem;
   cursor: pointer;
   border: none;
+  background-color: #fc5d76;
+  font-weight: 700;
 }
 /* Footer */
 footer {
   text-align: center;
   font-size: small;
-  background-color: #ccc;
+  background-color: #3a3e3d;
   padding: 3px;
+  color: #ccc;
 }
 /* Side bar */
 .side-bar {
-  background-color: #333;
+  background-color: #4a4e4d;
   width: 250px;
   height: 100%;
   position: fixed;
@@ -182,6 +233,12 @@ footer {
   padding: 0.5rem;
   margin: 0.5rem;
 }
+
+@media (min-width: 576px) {
+  form { margin: 30px 100px;}
+  .about-content {padding: 15px 30px;}
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .cell{
@@ -191,6 +248,8 @@ footer {
     width: 50%;
     margin: 0.5rem;
   }
+  form { margin: 30px 130px;}
+  .about-content {padding: 15px 60px;}
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -209,9 +268,8 @@ footer {
     left: 0px;
     z-index: 1002;
   }
-  .toggle-menu.responsive{
-    left: 10px;
-  }
+  .toggle-menu.responsive{left: 10px;}
+  form { margin: 40px 160px;}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -222,4 +280,5 @@ footer {
     width: 33.3333%;
     margin: 0.75rem;
   }
+  form { margin: 50px 190px;}
 }
