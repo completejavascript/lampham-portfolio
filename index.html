@@ -7,13 +7,14 @@
 	<meta name="description" content="Software Engineer, Web Developer, JavaScript Lover &amp; Blogger @completejavascript">
 	<meta name="keywords" content="personal portfolio, lam pham, about, skills, portfolio, contact, completejavascript">
 
-	<title>Lam Pham - Software Engineer and Web Developer</title>
-
+  <title>Lam Pham - Software Engineer and Web Developer</title>
+  
   <link rel="canonical" href="http://about.phamvanlam.com/">
   <link rel="shortlink" href="http://about.phamvanlam.com/">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/grid.css">
-	<link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <!-- Button fixed: Toggle menu, scroll to top -->
@@ -69,109 +70,8 @@
           <h2 class="section-title">Portfolio</h2>
           <p class="section-description">Check out my lastest work below.</p>
         </div>
-        <div class="flex-grid">
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
-          <!-- Each cell -->
-          <div class="cell my-box-shadow">
-            <a href="javascript:void(0);">
-              <img src="./res/build-tribute-page.png" class="gr-img-responsive" alt="Build a tribute page project image">
-            </a>
-            <h3 class="cell-title"><a href="javascript:void(0);">[FCC] Build a Tribute Page</a></h3>
-            <p class="cell-description">This is a basic front-end project on freeCodeCamp</p>
-            <div class="cell-footer">
-              <div class="tags">
-                <i class="fa fa-tags"></i>
-                <span>HTML5, CSS3, Bootstrap, JQuery</span>
-              </div>
-              <div class="how-to">
-                <a href="javascript:void(0)">how-to</a>
-              </div>
-            </div>
-          </div>
+        <div class="flex-grid" id="my-portfolios">
+          <!-- Render each portfolio here using template-->
         </div>
         <!-- See more -->
         <div class="see-more-wrapper">
@@ -230,10 +130,28 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/data.js"></script>
 	<script src="./js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 
-	<script type="x-tmpl-mustache">
+	<script type="x-tmpl-mustache" id="portfolio-template">
+    <!-- Each cell -->
+    <div class="cell my-box-shadow">
+      <a href="{{link-demo}}">
+        <img src="{{link-img}}" class="gr-img-responsive" alt="{{alt-img}}}">
+      </a>
+      <h3 class="cell-title"><a href="{{link-demo}}">{{title}}</a></h3>
+      <p class="cell-description">{{description}}</p>
+      <div class="cell-footer">
+        <div class="tags">
+          <i class="fa fa-tags"></i>
+          <span>{{tags}}</span>
+        </div>
+        <div class="how-to">
+          <a href="{{link-wiki}}">how-to</a>
+        </div>
+      </div>
+    </div>
 	</script>
 </body>
 </html>
