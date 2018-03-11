@@ -65,6 +65,13 @@ header, section {text-align: center;}
 .site-description{
   font-size: 0.97rem;
 }
+.my-yellow{color: #f6cd61;}
+.my-blue{color: #3da4ab;}
+.my-red{color: #fc5d76;}
+.my-bg-yellow{background-color: #f6cd61;}
+.my-bg-blue{background-color: #3da4ab;}
+.my-bg-red{background-color: #fc5d76;}
+
 #intro {
   padding: 60px 3px;
   background-color: #f6cd61;
@@ -173,9 +180,13 @@ header, section {text-align: center;}
   background-color: #f8f8f9;
 }
 .about-content {padding: 15px 0px;}
+.about-content ul {
+  padding-left: 0;
+  text-align: left;
+}
 .about-content p{
   text-align: justify;
-  padding: 10px 0px;
+  padding: 8px 0px;
 }
 /* Contact */
 #contact {
@@ -291,6 +302,30 @@ footer {
 }
 .nav-profile a:hover {
   color: #fff;
+}
+.skills-wrapper {float: left;}
+.skills {
+  float: left;
+  padding: 0.25rem;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  color: #fff;
+  font-size: 0.85rem;
+}
+.skills::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.para {
+  float: left;
+}
+.percentage{
+  padding: 0.25rem;
+  color: #222;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 0.85rem;
 }
 @media (min-width: 576px) {
   form { margin: 30px 100px;}
