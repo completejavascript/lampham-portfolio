@@ -303,21 +303,13 @@ footer {
 .nav-profile a:hover {
   color: #fff;
 }
-.skills-wrapper {float: left;}
+.skills-wrapper {overflow: hidden;}
 .skills {
   float: left;
   padding: 0.25rem;
   margin: 0.25rem 0.25rem 0.25rem 0;
   color: #fff;
   font-size: 0.85rem;
-}
-.skills::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.para {
-  float: left;
 }
 .percentage{
   padding: 0.25rem;
