@@ -1,6 +1,6 @@
 const portfolios = [
   {
-    "link-demo": "https://about.phamvanlam.com/fcc-tribute-page/",
+    "link-demo": "http://about.phamvanlam.com/fcc-tribute-page/",
     "link-img": "./res/fcc-build-tribute-page.png",
     "alt-img": "Build a tribute page project image",
     "title": "Tribute Page",
@@ -9,7 +9,7 @@ const portfolios = [
     "link-wiki": "https://github.com/completejavascript/fcc-tribute-page/wiki"
   },
   {
-    "link-demo": "https://about.phamvanlam.com/fcc-personal-portfolio/",
+    "link-demo": "http://about.phamvanlam.com/fcc-personal-portfolio/",
     "link-img": "./res/fcc-build-personal-portfolio.png",
     "alt-img": "Build a personal portfolio image",
     "title": "Personal Portfolio",
