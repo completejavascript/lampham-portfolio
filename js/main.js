@@ -1,11 +1,11 @@
 $(document).ready(function(){
   let portfolioTemplate = $('#portfolio-template').html();
-  let numPortfolioInit = 3;
-  addPortfolio();
+  const numPortfolioInit = 6, numPortfolioLoad = 3; 
+  addPortfolio(numPortfolioInit);
 
   // Render more portfolio after clicking this button
   $("#btn-see-more").click(function(){
-    addPortfolio();
+    addPortfolio(numPortfolioLoad);
   });
 
   // Display side bar menu when clicking on toggle menu
@@ -36,9 +36,9 @@ $(document).ready(function(){
     }, 1000);
   }
 
-  function addPortfolio() {
+  function addPortfolio(numPortfolio) {
     let rendered;
-    for (let i = 0; i < numPortfolioInit; i++) {
+    for (let i = 0; i < numPortfolio; i++) {
       let item = portfolios.pop();
       if(item) {
         Mustache.parse(portfolioTemplate);
