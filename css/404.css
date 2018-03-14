@@ -1,1 +1,63 @@
 
+* {box-sizing: border-box;}
+body {
+  background-color: #fe4a49;
+  margin: 0;
+  color: #222;
+  font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
+}
+h1{
+  font-size: 6.75rem;
+  margin: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+.my-btn {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.my-box-shadow{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.my-transition {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.main-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+}
+.main-section:hover{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.24);
+}
+.desc-text {font-size: 0.85rem;}
+.btn-wrapper{
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+.btn-return {font-weight: 600;}
+.btn-return:hover{
+  background-color: #f6cd61;
+}
+
+@media (min-width: 576px) {
+  .main-section {
+    max-width: 400px;
+  }
+}
