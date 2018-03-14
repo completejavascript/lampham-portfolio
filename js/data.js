@@ -16,5 +16,14 @@ const portfolios = [
     "description": "A basic front-end project about building a personal portfolio on freeCodeCamp",
     "tags": "HTML5, CSS3, JQuery, Mustache.js",
     "link-wiki": "javascript:void(0);"
+  },
+  {
+    "link-demo": "http://about.phamvanlam.com/fcc-random-quote-machine/",
+    "link-img": "./res/fcc-build-random-quote-machine.png",
+    "alt-img": "Build a random quote machine",
+    "title": "Random Quote Machine",
+    "description": "A basic front-end project about building a random quote machine on freeCodeCamp",
+    "tags": "HTML5, CSS3, JQuery",
+    "link-wiki": "javascript:void(0);"
   }
 ];

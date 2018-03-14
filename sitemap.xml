@@ -3,11 +3,14 @@
   <url>
     <loc>http://about.phamvanlam.com/</loc>
     <changefreq>weekly</changefreq>
+  <url>
+    <loc>http://about.phamvanlam.com/fcc-random-quote-machine/</loc>
+  </url>
+  </url>
+    <url>
+    <loc>http://about.phamvanlam.com/fcc-personal-portfolio/</loc>
   </url>
   <url>
     <loc>http://about.phamvanlam.com/fcc-tribute-page/</loc>
-  </url>
-  <url>
-    <loc>http://about.phamvanlam.com/fcc-personal-portfolio/</loc>
   </url>
 </urlset>
