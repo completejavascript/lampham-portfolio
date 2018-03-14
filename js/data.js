@@ -6,7 +6,7 @@ const portfolios = [
     "title": "Tribute Page",
     "description": "A basic front-end project about building a tribute page on freeCodeCamp",
     "tags": "HTML5, CSS3, Bootstrap, JQuery",
-    "link-wiki": "https://github.com/completejavascript/fcc-tribute-page/wiki"
+    "link-wiki": "javascript:void(0);"
   },
   {
     "link-demo": "http://about.phamvanlam.com/fcc-personal-portfolio/",
@@ -15,6 +15,6 @@ const portfolios = [
     "title": "Personal Portfolio",
     "description": "A basic front-end project about building a personal portfolio on freeCodeCamp",
     "tags": "HTML5, CSS3, JQuery, Mustache.js",
-    "link-wiki": "https://github.com/completejavascript/fcc-personal-portfolio/wiki"
+    "link-wiki": "javascript:void(0);"
   }
 ];
