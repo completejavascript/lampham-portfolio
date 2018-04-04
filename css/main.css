@@ -154,8 +154,8 @@ header, section {text-align: center;}
 .cell-footer .tags {
   float: left;
   text-align: left;
-  padding: 15px 10px;
-  width: 80%;
+  padding: 15px 5px 15px 10px;
+  width: 82%;
   background-color: inherit;
 }
 .cell-footer .tags span {font-size: 0.85rem; color: #6d6e70;}
@@ -163,7 +163,7 @@ header, section {text-align: center;}
 .cell-footer .how-to{
   float: left;
   text-align: right;
-  width: 20%;
+  width: 18%;
   padding: 15px 10px 15px 5px;
   background-color: inherit;
 }
