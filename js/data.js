@@ -23,7 +23,7 @@ const portfolios = [
     "alt-img": "Build a random quote machine",
     "title": "Random Quote Machine",
     "description": "A basic front-end project about building a random quote machine on freeCodeCamp",
-    "tags": "HTML5, CSS3, JQuery",
+    "tags": "HTML5, CSS3, JQuery, Forismatic API",
     "link-wiki": "https://github.com/completejavascript/fcc-random-quote-machine"
   }
 ];
