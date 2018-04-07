@@ -144,8 +144,8 @@ header, section {text-align: center;}
 .cell-description{
   font-size: 1.05rem;
   color: #6d6e70;
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .cell-footer{
   width: 100%;
