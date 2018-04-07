@@ -144,6 +144,8 @@ header, section {text-align: center;}
 .cell-description{
   font-size: 1.05rem;
   color: #6d6e70;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 .cell-footer{
   width: 100%;
@@ -362,13 +364,6 @@ footer {
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .cell{
-    display: block;
-    -webkit-box-flex: 1;
-    flex: 1 1 calc(33.3333% - 1.5rem);
-    width: 33.3333%;
-    margin: 0.75rem;
-  }
   form { margin: 50px 190px;}
   h1 {font-size: 3.45rem;}
   h2 {font-size: 1.99rem;}

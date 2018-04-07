@@ -25,5 +25,14 @@ const portfolios = [
     "description": "A basic front-end project about building a random quote machine on freeCodeCamp",
     "tags": "HTML5, CSS3, JQuery, Forismatic API",
     "link-wiki": "https://github.com/completejavascript/fcc-random-quote-machine"
+  },
+  {
+    "link-demo": "http://about.phamvanlam.com/fcc-local-weather/",
+    "link-img": "./res/fcc-show-local-weather.png",
+    "alt-img": "Show local weather",
+    "title": "Weather App",
+    "description": "A basic front-end project about showing the local weather on freeCodeCamp",
+    "tags": "JQuery, Dark Sky API, Skycons",
+    "link-wiki": "https://github.com/completejavascript/fcc-local-weather"
   }
 ];
