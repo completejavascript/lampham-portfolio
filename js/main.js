@@ -1,7 +1,15 @@
 $(document).ready(function(){
   let portfolioTemplate = $('#portfolio-template').html();
+  Mustache.parse(portfolioTemplate);
+
   const numPortfolioInit = 6, numPortfolioLoad = 3; 
-  addPortfolio(numPortfolioInit);
+  let portfolios;
+
+  // Get data
+  $.getJSON("./data/portfolios.json", data => {
+    portfolios = data.projects;
+    addPortfolio(numPortfolioInit);
+  });
 
   // Render more portfolio after clicking this button
   $("#btn-see-more").click(function(){
@@ -41,7 +49,6 @@ $(document).ready(function(){
     for (let i = 0; i < numPortfolio; i++) {
       let item = portfolios.pop();
       if(item) {
-        Mustache.parse(portfolioTemplate);
         rendered = Mustache.render(portfolioTemplate, item);
         $("#my-portfolios").append(rendered);
       }
