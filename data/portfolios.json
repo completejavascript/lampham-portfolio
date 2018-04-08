@@ -5,8 +5,8 @@
       "link-img": "./res/fcc-build-tribute-page.png",
       "alt-img": "Build a tribute page project image",
       "title": "Tribute Page",
-      "description": "A basic front-end project about building a tribute page on freeCodeCamp",
-      "tags": "HTML5, CSS3, Bootstrap, JQuery",
+      "description": "Tribute Page for Brendan Eich - Founder of JavaScript",
+      "tags": "Bootstrap, JQuery",
       "link-wiki": "https://github.com/completejavascript/fcc-tribute-page"
     },
     {
@@ -14,8 +14,8 @@
       "link-img": "./res/fcc-build-personal-portfolio.png",
       "alt-img": "Build a personal portfolio image",
       "title": "Personal Portfolio",
-      "description": "A basic front-end project about building a personal portfolio on freeCodeCamp",
-      "tags": "HTML5, CSS3, JQuery, Mustache.js",
+      "description": "Personal Portfolio Landing Page for Sharing Personal Infomation, Skills, Projects,...",
+      "tags": "JQuery, Mustache.js",
       "link-wiki": "https://github.com/completejavascript/fcc-personal-portfolio"
     },
     {
@@ -23,8 +23,8 @@
       "link-img": "./res/fcc-build-random-quote-machine.png",
       "alt-img": "Build a random quote machine",
       "title": "Random Quote Machine",
-      "description": "A basic front-end project about building a random quote machine on freeCodeCamp",
-      "tags": "HTML5, CSS3, JQuery, Forismatic API",
+      "description": "A Machine for Showing Random Quote, Sharing on Twitter, Tumblr and Facebook Comment Plugin Embedded",
+      "tags": "JQuery, Forismatic API",
       "link-wiki": "https://github.com/completejavascript/fcc-random-quote-machine"
     },
     {
@@ -32,8 +32,8 @@
       "link-img": "./res/fcc-show-local-weather.png",
       "alt-img": "Show local weather",
       "title": "Weather App",
-      "description": "A basic front-end project about showing the local weather on freeCodeCamp",
-      "tags": "JQuery, Dark Sky API, Skycons",
+      "description": "Showing the Local Weather on Currently, Next 48 Hours and Next 7 Days",
+      "tags": "JQuery, DarkSky API, Skycons",
       "link-wiki": "https://github.com/completejavascript/fcc-local-weather"
     }
   ]
