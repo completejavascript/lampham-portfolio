@@ -23,7 +23,7 @@
       "link-img": "./res/fcc-build-random-quote-machine.png",
       "alt-img": "Build a random quote machine",
       "title": "Random Quote Machine",
-      "description": "A Machine for Showing Random Quote, Sharing on Twitter, Tumblr and Facebook Comment Plugin Embedded",
+      "description": "Machine for Showing Random Quote, Sharing on Twitter, Tumblr and Facebook Comment Plugin Embedded",
       "tags": "JQuery, Forismatic API",
       "link-wiki": "https://github.com/completejavascript/fcc-random-quote-machine"
     },
