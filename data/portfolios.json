@@ -35,6 +35,15 @@
       "description": "Showing the Local Weather on Currently, Next 48 Hours and Next 7 Days",
       "tags": "JQuery, DarkSky API, Skycons",
       "link-wiki": "https://github.com/completejavascript/fcc-local-weather"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-wikipedia-viewer/",
+      "link-img": "./res/fcc-build-wikipedia-viewer.png",
+      "alt-img": "Wikipedia Viewer",
+      "title": "Wikipedia Viewer",
+      "description": "Search Something on Wikipedia.org or View a Random Wikipedia Article",
+      "tags": "ES6, Vanilla js, Wikipedia API",
+      "link-wiki": "https://github.com/completejavascript/fcc-wikipedia-viewer"
     }
   ]
 }
