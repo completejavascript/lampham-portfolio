@@ -247,6 +247,7 @@ footer {
   width: 250px;
   height: 100%;
   position: fixed;
+  z-index: 1000;
   top: 0px;
   left: -250px;
   text-align: center;
