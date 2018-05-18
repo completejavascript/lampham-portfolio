@@ -52,9 +52,9 @@ $(document).ready(function(){
         rendered = Mustache.render(portfolioTemplate, item);
         $("#my-portfolios").append(rendered);
       }
-      else {
-        $("#btn-see-more").css("display", "none");
-      }
     }
+
+    if (portfolios.length === 0) 
+      $("#btn-see-more").css("display", "none");
   }
 });
