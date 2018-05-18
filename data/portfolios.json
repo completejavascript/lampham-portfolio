@@ -44,6 +44,15 @@
       "description": "Search Something on Wikipedia.org or View a Random Wikipedia Article",
       "tags": "ES6, Vanilla js, Wikipedia API",
       "link-wiki": "https://github.com/completejavascript/fcc-wikipedia-viewer"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/fcc-the-twitchtv-json-api/",
+      "link-img": "./res/fcc-the-twitchtv-json-api.png",
+      "alt-img": "twitchtv-json-api",
+      "title": "Use the Twitch.tv JSON API",
+      "description": "A simple Twitch app displaying channel streaming status using Twitch.tv JSON API",
+      "tags": "ES6, jQuery, Twitch.tv API",
+      "link-wiki": "https://github.com/completejavascript/fcc-the-twitchtv-json-api"
     }
   ]
 }
