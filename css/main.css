@@ -76,10 +76,11 @@ header, section {text-align: center;}
   padding: 60px 3px;
   background-color: #f6cd61;
 }
-#btn-about{
+#btn-about, #download-cv{
   background-color: #3da4ab;
 }
-#btn-about:hover{
+#download-cv{text-decoration: none;}
+#btn-about:hover, #download-cv:hover{
   background-color: #0e9aa7;
   color: #fff;
 }
@@ -89,6 +90,11 @@ header, section {text-align: center;}
 #btn-contact:hover{
   color: #fff;
   background-color: #fe4a49;
+}
+.download-cv-wrapper {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
 }
 .group-btn { margin-top: 120px;}
 .group-btn a {
