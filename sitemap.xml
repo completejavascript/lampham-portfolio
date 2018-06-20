@@ -3,6 +3,19 @@
   <url>
     <loc>http://about.phamvanlam.com/</loc>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://about.phamvanlam.com/find-dog-you-love/</loc>
+  </url>
+  <url>
+    <loc>http://about.phamvanlam.com/fcc-the-twitchtv-json-api/</loc>
+  </url>
+  <url>
+    <loc>http://about.phamvanlam.com/fcc-wikipedia-viewer/</loc>
+  </url>
+  <url>
+    <loc>http://about.phamvanlam.com/fcc-local-weather/</loc>
+  </url>
   <url>
     <loc>http://about.phamvanlam.com/fcc-random-quote-machine/</loc>
   </url>
