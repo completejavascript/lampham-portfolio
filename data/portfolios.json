@@ -62,6 +62,15 @@
       "description": "List all Dog Breeds Images using Dog.CEO API. So people, who love dogs, can find a dog they love easily",
       "tags": "ES6, jQuery, Dog API",
       "link-wiki": "https://github.com/completejavascript/find-dog-you-love"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/markdown-editor/",
+      "link-img": "./res/markdown-editor.png",
+      "alt-img": "Markdown Editor",
+      "title": "Markdown Editor",
+      "description": "A very simple but useful Markdown Editor with CodeMirror, Markedjs and Create-react-app",
+      "tags": "React, CodeMirror, Markedjs, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/markdown-editor"
     }
   ]
 }
