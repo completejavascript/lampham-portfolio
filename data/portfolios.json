@@ -71,6 +71,15 @@
       "description": "A very simple but useful Markdown Editor with CodeMirror, Markedjs and Create-react-app",
       "tags": "React, CodeMirror, Markedjs, Create-react-app",
       "link-wiki": "https://github.com/completejavascript/markdown-editor"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/drum-machine/",
+      "link-img": "./res/drum-machine.png",
+      "alt-img": "Drum machine",
+      "title": "Drum Machine",
+      "description": "A simple Drum Machine with Create-react-app",
+      "tags": "React",
+      "link-wiki": "https://github.com/completejavascript/drum-machine"
     }
   ]
 }
