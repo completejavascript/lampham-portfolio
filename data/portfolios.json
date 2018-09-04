@@ -80,6 +80,15 @@
       "description": "A simple Drum Machine with Create-react-app",
       "tags": "React, Create-react-app",
       "link-wiki": "https://github.com/completejavascript/drum-machine"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/calculator/",
+      "link-img": "./res/calculator.png",
+      "alt-img": "Calculator",
+      "title": "Standard Calculator",
+      "description": "A basic Calculator with five functions for addition, subtraction, division, multiplication and modulo operation",
+      "tags": "React, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/calculator"
     }
   ]
 }
