@@ -2,7 +2,7 @@ $(document).ready(function(){
   let portfolioTemplate = $('#portfolio-template').html();
   Mustache.parse(portfolioTemplate);
 
-  const numPortfolioInit = 6, numPortfolioLoad = 3; 
+  const numPortfolioInit = 6, numPortfolioLoad = 4; 
   let portfolios;
 
   // Get data
