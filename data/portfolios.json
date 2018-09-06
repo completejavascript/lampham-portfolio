@@ -89,6 +89,15 @@
       "description": "A basic Calculator with five functions for addition, subtraction, division, multiplication and modulo operation",
       "tags": "React, Create-react-app",
       "link-wiki": "https://github.com/completejavascript/calculator"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/pomodoro-clock/",
+      "link-img": "./res/pomodoro-clock.png",
+      "alt-img": "Pomodoro Clock",
+      "title": "Pomodoro Clock",
+      "description": "A pomodoro clock for Pomodoro Technique Timer",
+      "tags": "React, Create-react-app",
+      "link-wiki": "https://github.com/completejavascript/pomodoro-clock"
     }
   ]
 }
