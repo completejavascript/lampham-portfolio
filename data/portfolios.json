@@ -98,6 +98,15 @@
       "description": "A pomodoro clock for Pomodoro Technique Timer",
       "tags": "React, Create-react-app",
       "link-wiki": "https://github.com/completejavascript/pomodoro-clock"
+    },
+    {
+      "link-demo": "http://thuattoan.phamvanlam.com/",
+      "link-img": "./res/algorithms-blog.png",
+      "alt-img": "Algorithms blog",
+      "title": "Algorithms Blog",
+      "description": "My Algorithms Blog in Vietnamese with Gatsby.js and Netlify",
+      "tags": "React, GatsbyJS",
+      "link-wiki": "https://github.com/completejavascript/algorithms-blog"
     }
   ]
 }
