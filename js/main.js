@@ -46,7 +46,7 @@ $(document).ready(function(){
     }
   
     debounce_timer = window.setTimeout(function() {
-      if ($(window).scrollTop() > 20) $myScrollTop.show();
+      if ($(window).scrollTop() > 100) $myScrollTop.show();
       else $myScrollTop.hide();
     }, 100);
   });
