@@ -33,8 +33,22 @@ $(document).ready(function(){
   });
 
   // Scroll to top as "intro" section
-  $("#my-scroll-top").click(function(){
+  let $myScrollTop = $("#my-scroll-top");
+  $myScrollTop.click(function(){
     scrollTo($("#intro"));
+  });
+
+  // Hide or show "back to top" button when scrolling page
+  let debounce_timer;
+  $(window).scroll(function() {
+    if(debounce_timer) {
+      window.clearTimeout(debounce_timer);
+    }
+  
+    debounce_timer = window.setTimeout(function() {
+      if ($(window).scrollTop() > 20) $myScrollTop.show();
+      else $myScrollTop.hide();
+    }, 100);
   });
 
   // Scroll to target
