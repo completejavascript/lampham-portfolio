@@ -39,17 +39,23 @@ $(document).ready(function(){
   });
 
   // Hide or show "back to top" button when scrolling page
-  let debounce_timer;
+  showOrHideBackToTopButton();
+
+  let debounceTimer;
   $(window).scroll(function() {
-    if(debounce_timer) {
-      window.clearTimeout(debounce_timer);
+    if(debounceTimer) {
+      window.clearTimeout(debounceTimer);
     }
   
-    debounce_timer = window.setTimeout(function() {
-      if ($(window).scrollTop() > 100) $myScrollTop.show();
-      else $myScrollTop.hide();
+    debounceTimer = window.setTimeout(function() {
+      showOrHideBackToTopButton();
     }, 100);
   });
+
+  function showOrHideBackToTopButton() {
+    if ($(window).scrollTop() > 150) $myScrollTop.show();
+    else $myScrollTop.hide();
+  }
 
   // Scroll to target
   function scrollTo(target) {
