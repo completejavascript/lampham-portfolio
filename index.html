@@ -39,7 +39,7 @@
   <!-- Side bar -->
   <div class="side-bar my-transition" id="my-side-bar">
     <div class="side-top">
-      <img class="img-profile gr-img-responsive" alt="Lam Pham's profile image" src="./res/lampv-profile-completejavascript.com-640.jpg">
+      <img class="img-profile gr-img-responsive lazy-image" alt="Lam Pham's profile image" src="./res/profile-place-holder.png" data-src="./res/lampv-profile-completejavascript.com-640.jpg" />
       <p class="name-profile">Lam Pham</p>
       <p class="desc-profile">Software Engineer &amp; Web Developer</p>
       <ul class="nav-profile">
@@ -155,7 +155,7 @@
               <input class="my-transition" type="text" id="yname" name="Name" placeholder="Name" required>
               <input class="my-transition"  type="email" id="yemail" name="Email" placeholder="Email" required>
               <textarea class="my-transition"  type="text" id="ymsg" name="Message" placeholder="Message" required></textarea>
-              <input class="my-btn my-transition" type="submit" id="send" value="Send Message"></input>
+              <input class="my-btn my-transition" type="submit" id="send" value="Send Message" />
             </form>
           </div>
         </div>
@@ -179,7 +179,7 @@
     <!-- Each cell -->
     <div class="cell my-box-shadow">
       <a href="{{link-demo}}">
-        <img src="{{link-img}}" class="gr-img-responsive" alt="{{alt-img}}}">
+        <img src="./res/portfolio-place-holder.png" data-src="{{link-img}}" class="gr-img-responsive lazy-image" alt="{{alt-img}}" />
       </a>
       <h3 class="cell-title"><a href="{{link-demo}}">{{title}}</a></h3>
       <p class="cell-description">{{description}}</p>

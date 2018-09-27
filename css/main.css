@@ -29,6 +29,17 @@ header, section {text-align: center;}
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
+.lazy-image {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  -moz-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.lazy-image.visible {
+  opacity: 1;
+}
 /* Button fixed: Toggle menu, scroll to top */
 .my-btn {
   padding: 15px;
