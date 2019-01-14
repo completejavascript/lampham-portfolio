@@ -107,6 +107,15 @@
       "description": "My Algorithms Blog in Vietnamese with Gatsby.js and Netlify",
       "tags": "React, GatsbyJS",
       "link-wiki": "https://github.com/completejavascript/algorithms-blog"
+    },
+    {
+      "link-demo": "https://completejavascript.now.sh/",
+      "link-img": "./res/api-complete-javascript.png",
+      "alt-img": "Complete JavaScript's Public APIs",
+      "title": "Complete JavaScript's Public APIs",
+      "description": "A collection of some public RESTful APIs from Complete JavaScript",
+      "tags": "Node.js, Express, MongoDB, Pug, Mocha, Chai, Swagger-jsdoc",
+      "link-wiki": "https://github.com/completejavascript/api-completejavascript-com"
     }
   ]
 }
