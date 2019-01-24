@@ -116,6 +116,15 @@
       "description": "A collection of some public RESTful APIs from Complete JavaScript",
       "tags": "Node.js, Express, MongoDB, Pug, Mocha, Chai, Swagger-jsdoc",
       "link-wiki": "https://github.com/completejavascript/api-completejavascript-com"
+    },
+    {
+      "link-demo": "http://about.phamvanlam.com/tic-tac-toe/",
+      "link-img": "./res/tic-tac-toe-game.png",
+      "alt-img": "Tic-Tac-Toe Game",
+      "title": "Tic-Tac-Toe Game",
+      "description": "Unbeatable Tic-Tac-Toe game using React and Minimax Algorithm",
+      "tags": "React, Create-react-app, Minimax Algorithm",
+      "link-wiki": "https://github.com/completejavascript/tic-tac-toe"
     }
   ]
 }

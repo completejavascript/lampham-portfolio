@@ -9,6 +9,14 @@ http://about.phamvanlam.com/
 </url>
 <url>
 <loc>
+http://about.phamvanlam.com/tic-tac-toe/
+</loc>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<url>
+<loc>
 http://about.phamvanlam.com/algorithms-blog/
 </loc>
 <changefreq>daily</changefreq>
