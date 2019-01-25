@@ -164,15 +164,13 @@ header, section {text-align: center;}
   color: #6d6e70;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 50px;
 }
 .cell-footer{
   width: 100%;
   background-color: #f8f8f9;
-  height: 50px;
-  display: table;
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
 }
 .cell-footer .tags {
   float: left;
