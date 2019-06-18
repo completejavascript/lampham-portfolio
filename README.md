@@ -1,3 +1,3 @@
-# completejavascript.github.io
+# lampham-portfolio
 
-This is Lam Pham's portfolio.
+This is an old Lam Pham's portfolio.
